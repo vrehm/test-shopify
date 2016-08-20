@@ -3,8 +3,8 @@
     <div class="row">
       <% @products.each do |product| %>
         <div class="col-xs-12 col-sm-4">
-            <p><%= product.title %></p>
-            <p><%= image_tag product.images.first.src, width: "200" if product.images.first %></p>
+          <p><%= product.title %></p>
+          <p><%= image_tag product.images.first.src, width: "200" if product.images.first %></p>
         </div>
       <% end %>
     </div>
