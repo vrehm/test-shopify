@@ -1,6 +1,11 @@
 <div class="wrapper text-center">
   <div class="container">
     <div class="row">
+<!--      <div class="col-xs-12 col-sm-4">
+      <p><%#= @nb_pages %></p>
+      <p><%#= @product_count %></p>
+      <p><%#= @pagination %></p>
+     </div> -->
       <% @products.each do |product| %>
         <div class="col-xs-12 col-sm-4">
           <p><%= product.title %></p>

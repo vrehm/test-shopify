@@ -18,6 +18,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'shopify_api'
 gem 'activeresource', github: 'rails/activeresource'
+gem 'httparty'
 
 group :development, :test do
   gem 'binding_of_caller'
