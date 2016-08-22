@@ -27,5 +27,7 @@ class PagesController < ApplicationController
     #   temp.each { |product| @products << product }
     # end
     @products = ShopifyAPI::Product.find( :all, :params => { :limit => limit, :page => 1 } )
+    # @product = ShopifyAPI::Product.find(3629337543)
+    # raise
   end
 end
